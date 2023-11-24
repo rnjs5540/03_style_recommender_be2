@@ -4,6 +4,8 @@ import lombok.Data;
 
 @Data
 public class WeatherRequestBody {
-    private double x = 35.8888;
-    private double y = 128.6103;
+    private String date = "20231124";
+    private int time = 6;
+    private String x = "35";
+    private String y = "128";
 }

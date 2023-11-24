@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@ResponseBody
 @CrossOrigin(allowedHeaders = "*")
 public class CodyController {
-    @GetMapping("/")
+    //@GetMapping("/")
     public String hello() {
         return "hellllo";
     }
